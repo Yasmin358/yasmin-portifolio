@@ -1,0 +1,23 @@
+.project-card {
+    align-items: center;
+    display: inline-flex;   
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-right: 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px;
+  margin-left: 2px;
+  padding: 15px;
+  width: 40%;
+}

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 // import '../styles/projectCard.css';
+import '../styles/cardProject.css';
 import github from '../images/icons/github-white.png';
 import iconLink from '../images/icons/link-external.png';
 
@@ -7,7 +8,7 @@ function ProjectCard(props) {
   const { image, tags, projectName, about, technologies, repository, link} = props;
   
   return (
-    <div className="project-card">
+    <section className="project-card">
       <figure className="image-container">
         <a href={`${link}`}>
           <img src={image[0].image} alt={projectName}/>
@@ -43,7 +44,7 @@ function ProjectCard(props) {
           </a>
         </div>
       </article>
-    </div>
+    </section>
   );
 };
 
