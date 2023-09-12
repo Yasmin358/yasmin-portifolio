@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../styles/projectCard.css';
+// import '../styles/projectCard.css';
 import github from '../images/icons/github-white.png';
 import iconLink from '../images/icons/link-external.png';
 
