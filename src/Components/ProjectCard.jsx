@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 // import '../styles/projectCard.css';
 import '../styles/cardProject.css';
 import github from '../images/icons/github-white.png';
