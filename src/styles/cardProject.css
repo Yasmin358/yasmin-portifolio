@@ -1,9 +1,11 @@
-.project-card {
-    align-items: center;
-    display: inline-flex;   
-}
-
 .image-container {
+    border-radius: 15px; 
+    border: 15px solid black;
+    border-top: 20px solid black;
+    border-bottom: 23px solid black;
+    box-shadow: 0 0 0 2px white;
+    margin: 10px;
+    margin-right: 0;
     width: 40%;
 }
 
@@ -13,6 +15,11 @@
 }
 
 .info-container {
+  align-items: flex-end;
+  background-image: linear-gradient(var(--color2), var(--color3), var(--color4)) ; 
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: var(--textWhite);
   display: flex;
   flex-direction: column;
   height: 100%;
