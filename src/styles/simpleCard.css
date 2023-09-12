@@ -1,17 +1,4 @@
-.simple-card {
-  align-items: flex-start;
-  background-image: linear-gradient(var(--color2), var(--color3), var(--color4)) ;
-  border-radius: 15px;
-  box-shadow: var(--shadow);
-  color: var(--textWhite);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 20px 10px;
-  overflow: auto;
-  padding: 2rem 1rem;
-  width: 270px;
-}
+
 
 .simple-card:hover {
   box-shadow: 0 0 0 2px white;
