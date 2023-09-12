@@ -43,6 +43,11 @@
   width: 40%;
 }
 
+.image-container img {
+  width: 100%;
+  margin-right: 0;
+}
+
 @media screen and (max-width: 400px) {
   .subtitle {
     font-size: 1.8rem;
