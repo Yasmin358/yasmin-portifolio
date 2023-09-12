@@ -1,0 +1,49 @@
+.mainHome {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: auto;
+  width: 100%;
+}
+
+.projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 768px;
+  width: 90%;
+}
+
+.courses-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.aboutme-container {
+  height: auto;
+  max-height: 120rem;
+  min-height: auto;
+  padding-top: 5.4rem;
+  width: 90%;
+}
+
+.begin-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  min-height: 250px;
+  padding-top: 5.4rem;
+  width: 90%;
+}
+
+.contact-container {
+  min-height: 60vh;
+  max-height: 50%;
+  width: 90%;
+}

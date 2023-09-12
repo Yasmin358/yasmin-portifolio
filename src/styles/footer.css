@@ -1,0 +1,15 @@
+.footer {
+  align-items: center;
+  color: var(--textWhite);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif; 
+  padding: 15px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .quote {
+    text-align: center;
+  }
+}

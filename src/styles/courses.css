@@ -1,0 +1,54 @@
+.courses-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline 3px var(--color7);
+    text-underline-position: under;
+}
+
+.course-hr {
+    background-color: var(--color7);
+    width: 3px;
+    height: 5rem;
+    border: 0;
+    margin-top: 0;
+}
+
+.course-hr:nth-child(4) {
+    width: 0;
+    height: 0;
+}
+
+.courses-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.course, .courses-title {
+    font-family: 'Poppins', sans-serif; 
+    color: var(--textWhite); 
+}
+
+.course {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.course p:first-child {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.course p {
+    margin: 5px;
+}
+
+@media screen and (max-width: 400px) {
+
+
+};

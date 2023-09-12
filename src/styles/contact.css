@@ -1,0 +1,41 @@
+.contact-container p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: var(--textWhite);
+  text-align: center;
+}
+
+.contact-container {
+  padding-top: 6rem;
+}
+
+.icon-contact {
+  margin-bottom: 5px;
+  width: 24px;
+}
+
+.contacts {
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+}
+
+.contacts a {
+  align-items: center;
+  color: var(--textWhite);
+  display: flex; 
+  font-family: 'Nunito', sans-serif;
+  flex-direction: column;
+  margin: 10px;
+  text-decoration: none; 
+}
+
+.contact-title {
+  color: var(--textWhite);
+  font-family: 'Poppins', sans-serif; 
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: underline 3px var(--color7);
+  text-underline-position: under;
+}

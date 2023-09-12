@@ -1,0 +1,190 @@
+.aboutme-title {
+  font-family: 'Poppins', sans-serif; 
+  color: var(--textWhite);
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: underline 3px var(--color7);
+  text-underline-position: under;
+}
+
+.aboutme-content {
+  display: inline-flex;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.aboutme-main {
+  color: var(--textWhite);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  width: 60%;
+}
+
+.aboutme-main p {
+  margin: 9px 0;
+}
+
+.my-photo {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  width: 40%;
+}
+
+.my-photo img {
+  width: 100%;
+}
+
+.skills span {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  margin: 0.3rem;
+}
+
+
+.aboutme-skils {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tech-CSS {
+  background-color: #028ede;
+}
+
+.tech-HTML {
+  background-color: #ff600a;
+}
+
+.tech-JavaScript {
+  background-color: #ffe11f;
+}
+
+.tech-React {
+  background-color: #4cd8fa;
+}
+
+.tech-Redux {
+  background-color: #7d62bc;
+}
+
+.tech-RTL {
+  background-color: #fe2020;
+}
+
+.tech-Jest {
+  background-color: #b4415e;
+}
+
+.tech-TypeScript {
+  background-color: #3b80ce;
+}
+
+.tech-Git {
+  background-color: #ee3e1b;
+}
+
+.tech-GitHub {
+  background-color: #7a7a7a;
+}
+
+.tech-VSCode {
+  background-color: #008ff5;
+}
+
+.tech-Figma {
+  background-color: #02d084;
+}
+
+.tech-Linux {
+  background-color: #ffc71f;
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .aboutme-main {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .aboutme-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .aboutme-container {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .aboutme-skils {
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .aboutme-main {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .aboutme-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .aboutme-container {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .aboutme-skils {
+    align-items: center;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .aboutme-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .aboutme-main {
+    width: 100%;
+  }
+  
+  .aboutme-main p {
+    text-align: center;
+  }
+  
+  .aboutme-container {
+    height: auto;
+  }
+  
+  .aboutme-skils {
+    align-items: center;
+  }
+}

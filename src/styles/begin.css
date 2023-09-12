@@ -1,0 +1,124 @@
+.begin-text, .begin-text-2, .name-text, .seeMore {
+  font-family: 'Poppins', sans-serif; 
+  color: var(--textWhite);
+  margin-bottom: 0;
+  text-align: center;
+}
+  
+.begin-text, .name-text {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.begin-text {
+  margin-right: 8px;
+}
+
+.name-text {
+  line-height: 2.5rem;
+  margin-left: 8px;
+  text-decoration: underline 3px var(--color7);
+  text-underline-position: under;
+}
+
+.begin-text-2 {
+  font-size: 2rem;
+  font-weight: 400;
+} 
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.7rem;
+    padding-top: 16px;
+}
+
+.first-text, .seeMore-container {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.first-text {
+  flex-wrap: wrap;
+}
+
+.seeMore-container {
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.seeMore {
+  color: var(--color7);
+  font-size: 1.5rem;
+}
+
+.arrow {
+  margin-top: 5px;
+  width: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .begin-text, .name-text {
+    font-size: 1.5rem;
+  }
+  
+  .name-text {
+    line-height: 2rem;
+  }
+  
+  .name-hr {
+    margin-top: 0;
+    width: 9rem;
+  }
+  
+  .name-container {
+    padding-top: 0;
+  }
+  
+  .begin-text-2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .begin-container {
+    min-height: 100vh;
+  }
+  
+  .begin-text, .name-text {
+    font-size: 2rem;
+  }
+  
+  .name-text {
+    line-height: 2rem;
+  }
+  
+  .name-hr {
+    width: 12rem;
+  }
+  
+  .begin-text-2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+  .begin-text, .name-text {
+    font-size: 2.5rem;
+  }
+  
+  .begin-text-2 {
+    font-size: 1.5rem;
+  }
+  
+  .name-hr {
+    width: 15rem;
+  }
+  
+  .name-text {
+    line-height: 2rem;
+  }
+}
