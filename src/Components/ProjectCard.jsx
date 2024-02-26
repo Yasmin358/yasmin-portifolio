@@ -14,15 +14,17 @@ function ProjectCard(props) {
         </a>
       </figure>
       <article className="info-container">
-        {
-        tags.map((tag) => (
-          <span 
-            key={tag}
-            className="tags"
-          >
-          {tag}
-          </span>
-        ))}
+        <section className='tags-container'>
+          {
+          tags.map((tag) => (
+            <span 
+              key={tag}
+              className="tags"
+            >
+            {tag}
+            </span>
+          ))}
+        </section>
         <h3 className="projectName">{projectName}</h3>
         <p className="aboutProject">{about}</p>
         <div className="tech-container">

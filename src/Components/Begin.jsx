@@ -3,7 +3,7 @@ import arrow from '../images/icons/down-arrow.gif';
 
 function Begin() {
     return(
-        <section className="begin-container">
+        <section className="begin-container" id="begin">
                 <header className="first-text">
                     <h1 className="begin-text">Olá! Meu nome é 
                         <span className="name-text">Yasmin Amorin</span>

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {bestProjects} from '../data/ProjectsData';
-import {projects} from '../data/ProjectsData';
+import {bestProjects, projects, devProjects} from '../data/ProjectsData';
 import ProjectCard from './ProjectCard';
 import SimpleCard from './SimpleCard';
 import Pagination from './Pagination';
@@ -21,7 +20,9 @@ function Projects() {
             <header>
                 <h2 className="title">Projetos</h2>
             </header>
-            {bestProjects.map((project) => (
+            <section className="featured-projects">
+                <h3 className="subtitle">Destaques</h3>
+                {bestProjects.map((project) => (
                 <ProjectCard 
                    key={project.id}
                    image={project.image}
@@ -34,6 +35,24 @@ function Projects() {
                 />
             ))            
             }
+            </section>
+            <section className="under-development">
+                <header>
+                    <h3 className="subtitle">Em Desenvolvimento</h3>
+                </header>
+                {devProjects.map((project) => (
+                    <ProjectCard
+                    key={project.id}
+                    image={project.image}
+                    tags={project.tags}
+                    projectName={project.name}
+                    about={project.resume}
+                    technologies={project.technologies}
+                    link={project.link}
+                    repository={project.repository}
+                    />
+                ))}
+            </section>
             
             <section className="others-projects">
                 <header>

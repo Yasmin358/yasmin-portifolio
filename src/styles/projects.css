@@ -63,6 +63,10 @@
   width: 40%;
 }
 
+.tags-container {
+  display: flex;
+}
+
 .simple-card {
   align-items: flex-start;
   background-image: linear-gradient(var(--color2), var(--color3), var(--color4)) ;

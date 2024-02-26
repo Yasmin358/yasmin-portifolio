@@ -26,13 +26,33 @@ import recipes from '../images/projects/recipes.png';
 import recipes2 from '../images/projects/recipes2.png';
 import hackaton from '../images/projects/hackaton.png';
 import hackaton2 from '../images/projects/hackaton2.png';
+import delivery from '../images/projects/Deliery.png';
+
+const devProjects = [
+  {
+    id: 1,
+    name: 'Delivery App',
+    tags: ['Em Grupo','Full-Stack'],
+    members: 'Yasmin Amorin, Tiago de Barros, Vinícius Barbosa, Breno Araújo',
+    technologies: [technologies[0], technologies[1], technologies[2], technologies[3],
+    technologies[11]],
+    image: [{ id: 1, image: delivery}],
+    about: '',
+    resume: 'Um aplicativo de Delivery de Bebidas.',
+    link: 'https://delivery-app-project.up.railway.app/login',
+    repository: 'https://github.com/Yasmin358/trybe-project-delivery-app',
+    duration: '20/01/2023 - 14/02/2023',
+    dateBegin: '20/01/2023',
+    dateEnd: '31/01/2023',
+    favorite: true,
+  }
+]
 
 const bestProjects = [
   {
     id: 1,
     name: 'Rifa Virtual - Hackaton',
-    tags: ['Em Grupo'],
-    module: 'Front-End',
+    tags: ['Em Grupo','Front-End'],
     members: 'Yasmin Amorin, Patricia Correia, Mathews Rodrigues,  Sally Barzilai Diament' ,
     technologies: [technologies[0], technologies[1], technologies[3], 
     technologies[7]],
@@ -50,8 +70,7 @@ const bestProjects = [
   {
     id: 9,
     name: 'Online Store',
-    tags: ['Em Grupo'],
-    module: 'Front-End',
+    tags: ['Em Grupo','Front-End'],
     members: 'Yasmin Amorin, Leonardo C Araújo, Harumi Maeda, Leandro Coelho, Thiago Viana',
     technologies: [technologies[0], technologies[1], technologies[2], technologies[3]],
     image: [{ id: 1, image: onlineStore }, { id: 2, image: onlineStore2 }, { id: 3, image: onlineStore3 }],
@@ -68,8 +87,7 @@ const bestProjects = [
   {
     id: 8,
     name: 'TrybeTunes',
-    tags: ['Individual'],
-    module: 'Front-End',
+    tags: ['Individual', 'Front-End'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[2], technologies[3]],
     image: [{ id: 1, image: TrybeTunes }, { id: 2, image: TrybeTunes2 }, { id: 3, image: TrybeTunes3 }, { id: 4, image: TrybeTunes4 }],
@@ -89,8 +107,7 @@ const projects = [
   {
     id: 12,
     name: 'Recipes App',
-    tags: ['Em Grupo'],
-    module: 'Front-End',
+    tags: ['Em Grupo','Front-End'],
     members: 'Yasmin Amorin, Anderson Correa, Eliel Oliveira, Ricardo Caselati',
     technologies: [technologies[0], technologies[1], technologies[3], technologies[2], 
     technologies[5]],
@@ -108,8 +125,7 @@ const projects = [
   {
     id: 11,
     name: 'Trivia',
-    tags: ['Em Grupo'],
-    module: 'Front-End',
+    tags: ['Em Grupo','Front-End'],
     members: 'Yasmin Amorin, Thiago Oliveira, João Roberto',
     technologies: [technologies[0], technologies[1], technologies[3], technologies[2],
     technologies[4], technologies[5]],
@@ -127,8 +143,7 @@ const projects = [
   {
     id: 10,
     name: 'TrybeWallet',
-    tags: ['Individual'],
-    module: 'Front-End',
+    tags: ['Individual','Front-End'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[3], technologies[2], 
     technologies[4], technologies[5]],
@@ -146,8 +161,7 @@ const projects = [
   {
     id: 7,
     name: 'Tryunfo',
-    tags: ['Individual'],
-    module: 'Front-End',
+    tags: ['Individual','Front-End'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[3], technologies[2]],
     image: [{ id: 1, image: tryunfo }, { id: 2, image: tryunfo2 }],
@@ -164,8 +178,7 @@ const projects = [
   {
     id: 6,
     name: 'Solar System',
-    tags: ['Individual'],
-    module: 'Front-End',
+    tags: ['Individual', 'Front-End'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[3], technologies[2]],
     image: [{ id: 1, image: solarSystem }, { id: 2, image: solarSystem2 }],
@@ -182,8 +195,7 @@ const projects = [
   {
     id: 5,
     name: 'Shopping Cart',
-    tags: ['Individual'],
-    module: 'Front-End',
+    tags: ['Individual', 'Front-End'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[2], technologies[6]],
     image: [{ id: 1, image: shoppingCart }],
@@ -200,8 +212,7 @@ const projects = [
   {
     id: 4,
     name: 'Trybewarts',
-    tags: ['Em Dupla'],
-    module: 'Fundamentos',
+    tags: ['Em Dupla', 'Fundamentos'],
     members: 'Yasmin Amorin e Crisna Bezerra',
     technologies: [technologies[0], technologies[1], technologies[2] ],
     image: [{ id: 1, image: trybewarts }, { id: 2, image: trybewarts2 }],
@@ -218,8 +229,7 @@ const projects = [
   {
     id: 3,
     name: 'To Do List',
-    tags: ['Individual'],
-    module: 'Fundamentos',
+    tags: ['Individual', 'Fundamentos'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[2]],
     image: [{ id: 1, image: toDoList2 }, { id: 2, image: toDoList }],
@@ -236,8 +246,7 @@ const projects = [
   {
     id: 2,
     name: 'Pixel Art',
-    tags: ['Individual'],
-    module: 'Fundamentos',
+    tags: ['Individual', 'Fundamentos'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1], technologies[2]],
     image: [{ id: 1, image: pixelArt }, { id: 2, image: pixelArt2 }],
@@ -254,8 +263,7 @@ const projects = [
   {
     id: 1,
     name: 'Lessons Learned',
-    tags: ['Individual'],
-    module: 'Fundamentos',
+    tags: ['Individual', 'Fundamentos'],
     members: 'Yasmin Amorin',
     technologies: [technologies[0], technologies[1]],
     image: [{ id: 1, image: lessonsLearned }],
@@ -272,4 +280,4 @@ const projects = [
   },
 ];
 
-export {projects, bestProjects};
+export {projects, bestProjects, devProjects};
