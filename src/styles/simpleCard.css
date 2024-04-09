@@ -59,7 +59,7 @@
 }
 
 .technologies span, .tags {
-  border: 2px solid whitesmoke;
+  border: 2px solid #14a2a9;
   border-radius: 5px;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
@@ -72,7 +72,7 @@
 }
 
 .technologies span {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .info-card {

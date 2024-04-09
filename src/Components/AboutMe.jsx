@@ -29,7 +29,7 @@ function AboutMe() {
                 <div className="skills">
                   {
                     technologies.map((tech) => (
-                      <span key={tech} className={`tech-${tech}`}>{tech}</span>
+                      <span key={tech} className="tech">{tech}</span>
                     ))
                   }
                 </div>
